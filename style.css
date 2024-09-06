@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* BARRA DE ROLAGEM MODIFICADA POR ARTHUR SANTOS */
+::-webkit-scrollbar {
+    width: 10px; /* adjust the width of the scrollbar */
+    height: 10px; /* adjust the height of the scrollbar */
+    background-color: #f0f0f0; /* adjust the background color of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #90CAF9; /* adjust the color of the scrollbar thumb */
+    border-radius: 10px; /* adjust the border radius of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* adjust the background color of the scrollbar track */
+  }
+
+* {
+    margin: 0 auto;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+header {
+   flex-direction: row;
+   display: flex;
+   
+}
+
+
+main {
+    height: 600px;
+    margin-bottom: 50px;
+    min-height: 100vh;
+}
+
+div.introduction {
+    background-color: #ffffff;
+    height: 800px;
+    
+}
+
+div.introduction h1 {
+    position: absolute;
+    margin: 200px;
+    font-size: 96px;
+    font-weight: 500;
+}
+
+div.introduction img {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    position: relative; 
+    top: -100px; 
+}
+
+div.introduction button {
+    width: 195px;
+    padding: 20px;
+    position: relative; 
+    left: 200px;
+    top: 470px; 
+    font-size: 19px;
+    background-color: #90CAF9;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+div.introduction button a:hover{
+    color: black;
+}
+
+div.introduction a {
+    text-decoration: none;
+    color: white;
+}
+
+/* div.pfp {
+    
+    display: flex;
+    justify-content: center;
+    
+} */
+
+div.pfp img {
+    position: relative;
+    width: 400px;
+    top: 100px;
+    left: 170px;
+}
+
+div.profile {
+    flex-direction: column;
+    background-color: #90CAF9;
+    height: 600px;
+    
+}
+
+div.profile h2 {
+    position: relative;
+    text-align: right;
+    right: 530px;
+    bottom: 300px;
+    font-size: 64px;
+    font-weight: 200;
+}
+
+div.profile p {
+    right: -250px;
+    bottom: 250px;
+    position: relative;
+    text-align: center;
+    width: 800px;
+    font-size: 20px;
+}
+
+
+
+div.logo {
+    position: absolute;
+    flex: 20%;
+    margin: 2px;
+    padding-left: 120px;
+    
+}
+
+div.logo img {
+    /* width: 150px; */
+    padding: 60px;
+}
+
+div.texto {
+    flex: 60%;
+    padding-top: 50px;
+    margin: 5px;
+}
+
+div.abas {
+    flex: 20%;
+    
+    margin: 5px;
+}
+
+div.abas ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 70px;
+    font-size: 24px;
+    gap: 60px;
+    position: relative;
+  }
+  
+  
+    div.abas li {
+    margin-right: 20px;
+    
+  }
+
+  div.abas a:hover {
+    color: #23527c;
+  }
+
+  div.abas a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+  div.contato {
+    background-color: #ffffff;
+    height: 600px;
+  }
+
+
+  div.contato h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 64px;
+    font-weight: 200;
+}
+
+div.contato img {
+    position: relative;
+    top: 20px;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+div.contato p {
+    font-size: 24px;
+    font-weight: 200;
+    position: relative;
+    top: -70px;
+    left: 870px;
+}
+
+
+div.objetivo {
+    background-color: #90CAF9;
+    height: 700px;
+  }
+
+
+div.objetivo h1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 140px;
+    font-size: 64px;
+    font-weight: 200;
+    left: 190px;
+}
+
+div.objetivo img {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    position: absolute;
+    left: 1000px;
+    top: 2260px;
+}
+
+div.objetivo p {
+    width: 600px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    right: 430px;
+}
+
+
+div.formacao {
+    background-color: #ffffff;
+    height: 700px;
+}
+
+div.formacao h1 {
+    position: relative;
+    text-align: right;
+    right: 800px;
+    bottom: -100px;
+    font-size: 64px;
+    font-weight: 200;
+}
+
+div.formacao p {
+    
+    bottom: -200px;
+    position: relative;
+    text-align: center;
+    width: 800px;
+    font-size: 20px;
+}
+
+div.curso {
+    background-color: #90CAF9;
+    height: 800px;
+  }
+
+
+div.curso h1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 140px;
+    font-size: 50px;
+    font-weight: 200;
+    left: 510px;
+    text-align: center;
+        
+}
+
+div.curso p {
+    width: 600px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 350px;
+    
+}
+
+div.idioma {
+    background-color: #ffffff;
+    height: 600px;
+}
+
+div.idioma h1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 140px;
+    font-size: 64px;
+    font-weight: 200;
+    left: 1200px;
+}
+
+div.idioma p {
+    bottom: -400px;
+    right: -380px;
+    position: relative;
+    text-align: center;
+    width: 800px;
+    font-size: 20px;
+}
+
+
+div.idioma img {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    position: absolute;
+    left: 200px;
+    top: 4500px;
+}
+
+div.declaracao {
+    background-color: #90CAF9;
+    height: 800px;
+  }
+  
+  div.declaracao h1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 140px;
+    font-size: 50px;
+    font-weight: 200;
+    left: 510px;
+    text-align: center;
+}
+
+
+div.declaracao p {
+    width: 600px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 250px;
+    
+}
